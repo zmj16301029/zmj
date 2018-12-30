@@ -137,7 +137,7 @@ public class MainActivity extends AppCompatActivity
                 intent = new Intent("com.app.first");
                 startActivity(intent);
                 //联网登陆
-                /*new Thread()
+                new Thread()
                 {
                     @Override
                     public void run()
@@ -166,7 +166,7 @@ public class MainActivity extends AppCompatActivity
                                 break;
                         }
                     }
-                }.start();*/
+                }.start();
             }
         });
 
