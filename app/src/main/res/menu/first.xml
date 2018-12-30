@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/course"
+        android:title="我的课程"/>
+    <item
+        android:id="@+id/news"
+        android:title="社区"/>
+    <item
+        android:id="@+id/me"
+        android:title="我"/>
+</menu>

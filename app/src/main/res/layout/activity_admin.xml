@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_admin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.myapplication.AdminActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:src="@drawable/logo"
+        android:scaleType="fitXY"/>
+
+        <View
+        android:layout_width="match_parent"
+        android:layout_height="10sp"
+        android:background="@color/lightgrey"
+        android:layout_marginTop="145dp"
+        />
+        <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:text="学员签到"
+        android:background="@color/green"
+        android:layout_marginLeft="16dp"
+        android:id="@+id/signButton2"/>
+
+        <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="170dp"
+        android:text="课程管理"
+        android:id="@+id/courseButton2"
+        />
+
+        <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="230dp"
+        android:text="学员信息"
+        android:id="@+id/stuinfoButton2"
+        />
+
+        <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:background="@color/green"
+        android:layout_marginLeft="190dp"
+        android:text="教练信息"
+        android:id="@+id/coach_Button2"
+        />
+
+        <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:layout_marginLeft="16dp"
+        android:text="人员管理"
+        android:layout_marginTop="290dp"
+        android:id="@+id/adm_accButton"
+        />
+
+        <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="290dp"
+        android:background="@color/green"
+        android:layout_marginLeft="190dp"
+        android:text="我的"
+        android:id="@+id/adm_myButton"
+        />
+
+        <View
+        android:layout_width="match_parent"
+        android:layout_height="10sp"
+        android:background="@color/lightgrey"
+        android:layout_marginTop="350dp"/>
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="俱乐部新闻"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="16dp"
+        />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginLeft="16dp"
+            android:id="@+id/newsList1"
+            android:layout_marginTop="390dp">
+        </ListView>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/orange"
+            android:text="上传新闻"/>
+
+    </RelativeLayout>
+
+</ScrollView>

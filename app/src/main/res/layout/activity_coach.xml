@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_coach"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="com.example.myapplication.Coach">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:src="@drawable/logo"
+        android:scaleType="fitXY"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10sp"
+        android:background="@color/lightgrey"
+        android:layout_marginTop="145dp"
+        />
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:text="学员签到"
+        android:background="@color/green"
+        android:layout_marginLeft="16dp"
+        android:id="@+id/signButton"/>
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="170dp"
+        android:text="课程管理"
+        android:id="@+id/courseButton1"
+        />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="230dp"
+        android:text="学员信息"
+        android:id="@+id/stuinfoButton"
+        />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:background="@color/green"
+        android:layout_marginLeft="190dp"
+        android:text="我的"
+        android:id="@+id/coach_Button"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10sp"
+        android:background="@color/lightgrey"
+        android:layout_marginTop="290dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我的课程"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="16dp"
+        android:textSize="17dp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/teachRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="430dp"
+        android:text="添加课程"
+        android:id="@+id/addCourseButton"/>
+</RelativeLayout>

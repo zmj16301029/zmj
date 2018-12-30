@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_change_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.myapplication.ChangeInfoActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="个人信息"
+        android:textSize="26dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+    </TextView>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="3sp"
+        android:background="@color/orange"
+        android:layout_marginTop="45dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="账号：123456"
+        android:textSize="18dp"
+        android:layout_marginTop="75dp">
+    </TextView>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@color/lightgrey"
+        android:layout_marginTop="105dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_marginTop="130dp"
+        android:id="@+id/useType"/>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@color/lightgrey"
+        android:layout_marginTop="160dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="用户名：涵虚子"
+        android:textSize="18dp"
+        android:layout_marginTop="185dp"
+        android:id="@+id/name"
+        />
+
+    <Button
+        android:layout_width="65dp"
+        android:layout_height="35dp"
+        android:text="修改"
+        android:background="@color/orange"
+        android:layout_marginLeft="247dp"
+        android:layout_marginTop="177dp"
+        android:id="@+id/namebutton"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightgrey"
+        android:layout_marginTop="215dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="性别：女"
+        android:id="@+id/sex"
+        android:textSize="18dp"
+        android:layout_marginTop="240dp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightgrey"
+        android:layout_marginTop="270dp"
+        />
+
+    <Button
+        android:layout_width="65dp"
+        android:layout_height="35dp"
+        android:text="修改"
+        android:background="@color/orange"
+        android:layout_marginLeft="247dp"
+        android:layout_marginTop="232dp"
+        android:id="@+id/sexbutton"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="年龄：20"
+        android:textSize="18dp"
+        android:layout_marginTop="295dp"
+        android:id="@+id/age"/>
+
+    <Button
+        android:layout_width="65dp"
+        android:layout_height="35dp"
+        android:text="修改"
+        android:background="@color/orange"
+        android:layout_marginLeft="247dp"
+        android:layout_marginTop="287dp"
+        android:id="@+id/agebutton"/>
+</RelativeLayout>
