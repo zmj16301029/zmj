@@ -12,8 +12,7 @@ import android.widget.Toast;
 public class MyDatabase extends SQLiteOpenHelper
 {
     public static final String Create_coach = "create table private_coach ("
-            + "name text primary key," + "des text," + "res text)";//改为public static final String Create_coach = "create table private_coach ("
-            + "name text primary key," + "num text" + "des text," + "res text)";//建表操作
+            + "name text primary key," + "des text," + "res text)";
 
     private Context mcontext;
 
